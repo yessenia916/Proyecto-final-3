@@ -1,0 +1,326 @@
+nav{
+     width:100%;
+     text-align:center;
+     background-color:#76c5fe;
+     font-family: Arial;
+       }
+       h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: Cooper;
+        background-color: #76c5fe;
+       }
+       p1{
+        color:rgb(0, 0, 0);
+        font-size: 18px;
+        text-align: center;
+        background-color: #76c5fe;
+        
+       }
+       nav a {
+        color: #000000;
+        font-family: roboto;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: background-color 1s, color 1s;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 1.5px;
+        padding: 5px 5px;
+        background-color: #8ce6fd;}
+        body{
+            background-image: url(vidamarina.jpg);
+            background-size: auto;
+        }
+        nav a:hover {
+        color: rgb(8, 95, 117);/* color al pasar el cursor*/
+         }
+        /* Fondo general de la sección */
+#cuadros-info {
+  display: flex;
+  flex-wrap: wrap;            /* Para que los cuadros salten a la siguiente fila */
+  justify-content: center;    /* Centra todos los cuadros */
+  align-items: flex-start;
+  gap: 40px;                  /* 🔹 Espacio entre cuadros */
+  padding: 50px;
+  background-color: #80ebf9c6;  /* Color suave tipo mar */
+}
+
+/* Estilo de cada cuadro */
+.cuadro {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid #b2ebf2;
+}
+
+/* Efecto al pasar el mouse */
+.cuadro:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(2, 136, 245);
+}
+
+/* Tamaños */
+.grande {
+  width: 320px;
+  height: 230px;
+}
+
+.mediano {
+  width: 260px;
+  height: 190px;
+}
+
+.pequeño {
+  width: 220px;
+  height: 160px;
+}
+
+/* Opcional: distintos colores de fondo */
+.cuadro:nth-child(1) { background-color: #b3e5fc; }
+.cuadro:nth-child(2) { background-color: #7ec5ff; }
+.cuadro:nth-child(3) { background-color: #a2cee1; }
+.cuadro:nth-child(4) { background-color: #90c1dd;}
+.cuadro:nth-child(5) { background-color: #90ddcf; }
+
+
+.cuadro img {
+  width: 90px;          /* que se adapte al tamaño del cuadro */
+  height: 90px;        /* puedes ajustar la altura */
+  object-fit: cover;    /* recorta la imagen para que se vea bien */
+  border-radius: 12px 12px 0 0; /* redondea solo la parte superior */
+  margin-bottom: 10px;
+  
+}
+
+/* CONTENEDOR GENERAL */
+.contenedor {
+  display: flex;
+  gap: 20px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* MAIN */
+main {
+  flex: 3;
+}
+
+/* ASIDE */
+aside {
+  flex: 1;
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style-type: "🌊 ";
+  padding-left: 20px;
+}
+
+aside li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.que-es:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(2, 136, 245);
+}
+
+.que-es {
+  background-color: #e0f7fa; /* celeste suave */
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.que-es h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+.que-es p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.ecosistemas:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(2, 136, 245);
+}
+
+.ecosistemas {
+  background-color: #e0f7fa; /* celeste suave */
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+.ecosistemas h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.ecosistemas p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.ecosistemas img{
+  width: 250px;
+  height: 160px;
+  border-radius: 20px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.especies:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(2, 136, 245);
+}
+.especies {
+  background-color: #e0f7fa; /* celeste suave */
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+.especies h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.especies p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.especies img{
+  width: 250px;
+  height: 160px;
+  border-radius: 20px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.importancia:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(2, 136, 245);
+}
+.importancia {
+  background-color: #e0f7fa; /* celeste suave */
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+.importancia h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.importancia p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.importancia img{
+  width: 250px;
+  height: 160px;
+  border-radius: 20px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cuidados:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(2, 136, 245);
+}
+.cuidados {
+  background-color: #e0f7fa; /* celeste suave */
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+.cuidados h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.cuidados p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.cuidados img{
+  width: 250px;
+  height: 160px;
+  border-radius: 20px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact {
+  background-color: #e0f7fa; /* celeste suave */
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  font-family: "Poppins", sans-serif;
+  color: #02475e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+
+
+
+
+
+
+
+
+

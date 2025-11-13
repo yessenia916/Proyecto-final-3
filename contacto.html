@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+</head>
+<header>
+        <h1>Explorando la vida bajo el mar</h1>
+        <p1>"Conoce la ciencia que estudia la vida que habita bajo las olas"</p1>
+    </header>
+<body>
+    <audio src="La Sirenita - Bajo El Mar (Latino) (Letra).MP3"  controls autoplay></audio>
+    <nav>
+        <a href= "index.html">Inicio</a>
+        <a href="quees.html">¿Qué es?</a>
+        <a href="ecosistemas.html">Ecosistemas Marinos</a>
+        <a href="especies.html">Especies Marinas</a>
+        <a href="importancia.html">Importancia</a>
+        <a href="cuidado.html">Cuidado y Conservación</a>
+        <a href="contacto.html">Contacto</a>
+
+        </nav>
+        <form class="contact">
+            <h1>Formulario de registro: Para pasantes en investigaciónes marinas</h1>
+         <fieldset>
+          <legend><h2>Datos del Pasante</h2></legend>
+          <h3>Nombres y Apellidos</h3>
+          <input type="text" placeholder="Primer Nombre" required>
+          <input type="text" placeholder="Segundo Nombre">
+          <input type="text" placeholder="Primer Apellido" required>
+          <input type="text" placeholder="Segundo Apellido">
+          <br><br>
+          <label for=""><h3>Sexo</h3></label>
+          <input type="radio" name="contact" id="Mujer"><label for="Mujer">Mujer</label>
+          <input type="radio" name="contact" id="Hombre"><label for="Hombre">Hombre</label>
+          <br><br>
+          <label for="fechaest"><h3>Fecha de nacimiento</h3></label><br><br><input type="date" name="" id="fechaest" required>
+          <br><br>
+          <label for="tucódigo"><h3>Código Único de Identificación (CUI)</h3></label><br><br><input type="text" name="" id="tucódigo" maxlength="13" required placeholder="0000000000000">
+          <br><br>
+          <label for="número"><h3>Número de teléfono para llamadas</h3></label><br><br><input type="number" name="" id="número" maxlength="8" required placeholder="00000000">
+          <br><br>
+          <label for="ingresanúmero"><h3>Número de teléfono para WhatsApp</h3></label><br><br><input type="number" name="" id="ingresanúmero" maxlength="8" required placeholder="00000000">
+          <br><br>
+          <label for="ingresatuemail"><h3>Correo Electrónico</h3></label><br><br><input type="email" name="" id="ingresatuemail" required placeholder="Ingrese su correo">
+          <br><br>
+          <label for="ingresatudireccion"><h3>Dirección de Residencia</h3></label><br><br><input type="text" id="ingresatudireccion" required placeholder="Ingrese su dirección">
+          </fieldset><br><br>
+          <input type="submit" value="Enviar">
+        </form>
+</body>
+</html>
